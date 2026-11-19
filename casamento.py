@@ -1,3 +1,7 @@
+#GRUPO:
+#Julia Castro da Silva
+#Letícia de Jesus Barros
+
 def troca(L: list, i: int, j: int) -> None:
     temp = L[i]
     L[i] = L[j]
