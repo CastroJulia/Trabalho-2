@@ -3,7 +3,7 @@
 #Letícia de Jesus Barros
 
 def antes(pais_a: list, pais_b: list) -> bool:
-    """Retorna True se pais_a deve ficar à frente de pais_b."""
+    """Retorna True se pais_a deve ficar à frente de pais_b"""
     nome_a, ouro_a, prata_a, bronze_a = pais_a
     nome_b, ouro_b, prata_b, bronze_b = pais_b
 
@@ -23,7 +23,7 @@ def troca(lista: list, a: int, b: int) -> None:
 
 
 def acha_pior(lista: list, tam: int) -> int:
-    """Devolve a posição do pior país entre os 'tam' primeiros."""
+    """Devolve a posição do pior país entre os 'tam' primeiros"""
     pior = 0
     pos = 1
     while pos < tam:
